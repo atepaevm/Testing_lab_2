@@ -2,7 +2,7 @@ package trigo;
 
 public class Sine {
     final public static double PI=3.141592653589793;
-    public static double sin(double x){
+    public double sin(double x){
         x%=(2* Sine.PI);
         if(Math.abs(x)<0.0000000001)
             return 0;
