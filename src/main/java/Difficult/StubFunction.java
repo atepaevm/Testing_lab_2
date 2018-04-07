@@ -14,6 +14,7 @@ public class StubFunction {
         }
     }
 }
+
 /*
  public Cosine cos=new Cosine();
     public Tangent tan=new Tangent();

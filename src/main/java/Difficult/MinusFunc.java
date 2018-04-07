@@ -7,6 +7,6 @@ import trigo.*;
 
 public class MinusFunc {
     public static double func(double x){
-        return Sine.sin(x)+ Tangent.tan(x)+ Secant.sec(x);
+        return Secant.sec(x) - Sine.sin(x);
     }
 }
